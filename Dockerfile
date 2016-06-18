@@ -12,3 +12,7 @@ ENV HOME /root
 WORKDIR /root
 
 ENTRYPOINT ["git"]
+
+RUN git version
+
+echo "this is completed"
